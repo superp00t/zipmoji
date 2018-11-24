@@ -1,6 +1,10 @@
 # ZIPmoji
 
-ZIPmoji is a simple Web library for adding web-support for emojis, without making a new HTTP request every time a different Emoji is used.
+ZIPmoji is a simple Web library for adding cross-platform support for emojis, without making a new HTTP request every time a different Emoji is used.
+
+This is necessary for applications in which it is desirable to leave as little metadata as possible on CDN servers.
+
+It works by compacting the Twitter Emoji SVGs into a single, 6.8 MB-long CSS file.
 
 This is not very useful if you don't care about generating a lot of HTTP requests, in which case, it is probably more prudent to use [Twemoji](https://github.com/twitter/twemoji/).
 
