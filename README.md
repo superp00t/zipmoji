@@ -14,7 +14,7 @@ const ZIPmoji = require("zipmoji");
 var zm = new ZIPmoji();
 
 var html = zm.process("🙌");
-  // <img alt="🙌" draggable="false" class="zipmoji" src="blob:..."></img>
+// <img alt="🙌" draggable="false" class="zm zm-1f64c"></img>
 
 document.body.innerHTML += html;
 ```
