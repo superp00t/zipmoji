@@ -1,0 +1,20 @@
+{
+  "name": "zipmoji",
+  "version": "1.0.0",
+  "description": "Single-file Emoji",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./scripts/generate-sources.js && ./node_modules/webpack/bin/webpack.js --mode production --display-modules"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jszip": "git+https://github.com/Stuk/jszip.git"
+  },
+  "devDependencies": {
+    "etc-js": "git+https://github.com/superp00t/etc-js.git",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  }
+}

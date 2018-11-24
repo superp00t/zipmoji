@@ -1,0 +1,13 @@
+.zm-none {
+  width:  16px;
+  height: 16px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.zm {
+  max-width:  16px;
+  max-height: 16px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
