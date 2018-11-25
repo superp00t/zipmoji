@@ -1,13 +1,18 @@
 .zm-none {
   width:  16px;
   height: 16px;
-  margin-left: 1px;
-  margin-right: 1px;
 }
 
 .zm {
-  max-width:  16px;
-  max-height: 16px;
-  margin-left: 1px;
-  margin-right: 1px;
+  width:  16px;
+  height: 16px;
+}
+
+.zm, .zm-none {
+  -webkit-user-select: text;
+	-khtml-user-select: text;
+	-moz-user-select: text;
+	-o-user-select: text;
+  user-select: text;
+  margin: 1px;
 }
