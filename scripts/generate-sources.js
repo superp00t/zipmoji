@@ -31,7 +31,7 @@ items.map((e) => {
   var fi = e.split(".")[0];
   manifest.push(fi);
   css += ".zm-" + fi + "{";
-  css += "content: url('data:image/svg+xml;utf8," + data + "');} ";
+  css += "background-image: url('data:image/svg+xml;utf8," + data + "'), none; background-repeat: no-repeat;} ";
 });
 
 fs.writeFileSync(dest, css);

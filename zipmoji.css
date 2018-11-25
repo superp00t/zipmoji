@@ -18,4 +18,5 @@
 	-o-user-select: text;
   user-select: text;
   margin: 1px;
+  color: rgba(0, 0, 0, 0) !important;
 }
