@@ -1,14 +1,17 @@
 .zm-none {
   width:  16px;
   height: 16px;
+  -webkit-user-select: text;
+	-khtml-user-select: text;
+	-moz-user-select: text;
+	-o-user-select: text;
+  user-select: text;
+  margin: 2px;
 }
 
 .zm {
   width:  16px;
   height: 16px;
-}
-
-.zm, .zm-none {
   -webkit-user-select: text;
 	-khtml-user-select: text;
 	-moz-user-select: text;
