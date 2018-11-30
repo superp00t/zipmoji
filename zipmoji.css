@@ -10,8 +10,9 @@
 }
 
 .zm {
-  width:  16px;
-  height: 16px;
+  background-size: 14px 14px;
+  width:  14px;
+  height: 14px;
   -webkit-user-select: text;
 	-khtml-user-select: text;
 	-moz-user-select: text;
@@ -19,4 +20,7 @@
   user-select: text;
   margin: 1px;
   color: rgba(0, 0, 0, 0) !important;
+  position: relative;
+  top: 3px;
+  display: inline-block;
 }
