@@ -14,6 +14,7 @@ const test = (name, expected, f) => {
 }
 
 [
+  ["🇩🇪卐", ""],
   ["🙁", `<span draggable="false" class="zm zm-1f641">🙁</span>`],
   ["☹", `<span draggable="false" class="zm zm-1f641">🙁</span>`],
   ["🙌", `<span draggable="false" class="zm zm-1f64c">🙌</span>`]
