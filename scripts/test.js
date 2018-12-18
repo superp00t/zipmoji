@@ -14,9 +14,10 @@ const test = (name, expected, f) => {
 }
 
 [
-  ["🙁", `<span draggable="false" class="zm zm-1f641">🙁</span>`],
-  ["☹", `<span draggable="false" class="zm zm-1f641">🙁</span>`],
-  ["🙌", `<span draggable="false" class="zm zm-1f64c">🙌</span>`]
+  ["🙁",  `<span draggable="false" class="zm zm-1f641">🙁</span>`],
+  ["☹",  `<span draggable="false" class="zm zm-1f641">🙁</span>`],
+  ["🙌",  `<span draggable="false" class="zm zm-1f64c">🙌</span>`],
+  ["👩‍⚕", `<span draggable="false" class="zm zm-1f469-200d-2695-fe0f">👩‍⚕</span>`]
 ].map(a =>
   test("HTML generation", a[1], (c) => {
     return new ZIPmoji().process(a[0]);
