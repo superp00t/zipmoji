@@ -1083,6 +1083,7 @@
     "cinema": "🎦",
     "signal_strength": "📶",
     "koko": "🈁",
+    "marx": "🧔‍☭",
     "symbols": "🔣",
     "information_source": "ℹ️",
     "abc": "🔤",
@@ -1295,7 +1296,7 @@
     "djibouti": "🇩🇯",
     "dominica": "🇩🇲",
     "dominican_republic": "🇩🇴",
-    "east_germany": "🇩🇪☭",
+    "east_germany": "🇩🇪‍☭",
     "ecuador": "🇪🇨",
     "egypt": "🇪🇬",
     "el_salvador": "🇸🇻",
@@ -1387,7 +1388,7 @@
     "mozambique": "🇲🇿",
     "myanmar": "🇲🇲",
     "namibia": "🇳🇦",
-    "nazi": "🇩🇪卐",
+    "nazi": "🇩🇪‍卐",
     "nauru": "🇳🇷",
     "nepal": "🇳🇵",
     "netherlands": "🇳🇱",
@@ -1484,5 +1485,6 @@
     "yemen": "🇾🇪",
     "zambia": "🇿🇲",
     "zimbabwe": "🇿🇼",
-    "communism": "☭"
+    "communism": "☭",
+    "hindu_svastika": "卐"
   }
