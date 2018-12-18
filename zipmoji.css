@@ -1,31 +1,7 @@
-.zm-none {
-  width:  16px;
-  height: 16px;
-  -webkit-user-select: text;
-	-khtml-user-select: text;
-	-moz-user-select: text;
-	-o-user-select: text;
-  user-select: text;
-  margin: 2px;
-}
-
 .zm {
-  line-height: 0em;
-  background-size: 16px 16px;
-  width:  16px;
-  height: 16px;
-  -webkit-user-select: text;
-	-khtml-user-select: text;
-	-moz-user-select: none;
-	-o-user-select: text;
-  user-select: text;
-  margin: 1px;
-  color: rgba(0, 0, 0, 0) !important;
-  position: relative;
-  bottom: 5px;
-  display: inline-block;
-}
-
-.zm::selection {
-  opacity: 0.0;
+  height: 1em;
+  width: 1em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+  color: rgba(0, 0, 0, 0);
 }
